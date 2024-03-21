@@ -34,6 +34,18 @@ const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
 
 const displayMenuButtons = () => {};
 
+const btnContainer = document.querySelector('.btn-container');
+
+categories.forEach((category) => {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.classList.add('filter-btn');
+  button.dataset.id = category;
+  button.textContent = category;
+
+  btnContainer.appendChild(button);
+});
+
 window.addEventListener('DOMContentLoaded', () => {
   displayMenuitems(menu);
   displayMenuButtons();
