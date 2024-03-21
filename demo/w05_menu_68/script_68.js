@@ -2,7 +2,7 @@ import menu from './data_68.js';
 
 const sectionCenter = document.querySelector('.section-center');
 
-console.log('Menu', menu);
+console.log('menu', menu);
 
 const displayMenuitems = (menu) => {
   let displayMenu = menu
@@ -30,6 +30,11 @@ const displayMenuitems = (menu) => {
   sectionCenter.innerHTML = displayMenu;
 };
 
+const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
+
+const displayMenuButtons = () => {};
+
 window.addEventListener('DOMContentLoaded', () => {
   displayMenuitems(menu);
+  displayMenuButtons();
 });
