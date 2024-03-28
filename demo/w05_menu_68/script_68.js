@@ -30,21 +30,18 @@ const displayMenuitems = (menu) => {
   sectionCenter.innerHTML = displayMenu;
 };
 
-const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
+// const categories = ['all', 'breakfast', 'lunch', 'dinner', 'shakes'];
 
 const displayMenuButtons = () => {};
+const menuCategories = new Set(
+  menu.map((item) => {
+    return item.category;
+  })
+);
+console.log('meunCategories', menuCategories);
 
-const btnContainer = document.querySelector('.btn-container');
-
-categories.forEach((category) => {
-  const button = document.createElement('button');
-  button.type = 'button';
-  button.classList.add('filter-btn');
-  button.dataset.id = category;
-  button.textContent = category;
-
-  btnContainer.appendChild(button);
-});
+const categories = ['all', ...menuCategories];
+console.log('categories', categories);
 
 window.addEventListener('DOMContentLoaded', () => {
   displayMenuitems(menu);
