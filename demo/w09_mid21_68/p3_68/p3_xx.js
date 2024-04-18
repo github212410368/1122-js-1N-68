@@ -1,0 +1,17 @@
+const clearMenu1All = document.querySelector('.clear-all');
+const showTKU60 = document.querySelector('.load-all');
+
+function changeImage(index) {
+  const player = document.querySelector('#player');
+  console.log('player', player);
+  switch (index) {
+  }
+}
+
+function showTKU60() {
+  const p = document.querySelector('#menu1');
+}
+
+function clearMenu1All() {
+  const p = document.querySelector('#menu1');
+}
