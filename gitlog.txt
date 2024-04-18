@@ -1,0 +1,39 @@
+271bf35	212410368	Thu Apr 18 21:08:45 2024 +0800	w09
+adb43c0	212410368	Thu Mar 28 21:59:10 2024 +0800	W06-P6: git logs for W6
+676ce47	212410368	Thu Mar 28 21:57:57 2024 +0800	W06-P5: implement close modals
+0f73579	212410368	Thu Mar 28 21:57:36 2024 +0800	W06-P4: implement open modals
+8de9233	212410368	Thu Mar 28 21:56:50 2024 +0800	W06-P3: implement filter buttons
+3c27cfa	212410368	Thu Mar 28 21:56:20 2024 +0800	W06-P2: Display Menu buttons from categories array
+58d870b	212410368	Thu Mar 28 21:55:48 2024 +0800	W06-P1: Create categories dynamically from data_xx.js
+66ed05d	212410368	Thu Mar 21 21:11:52 2024 +0800	3
+6efdaec	212410368	Thu Mar 21 21:10:41 2024 +0800	W05-P5: git logs for W5
+b244e1e	212410368	Thu Mar 21 21:09:14 2024 +0800	W05-P4: Display Menu buttons from categories array (do it by yourself)
+d78845d	212410368	Thu Mar 21 21:01:51 2024 +0800	W05-P3: Display Menu Items from menu json array on both local and Vercel
+792022f	212410368	Thu Mar 21 20:41:45 2024 +0800	2
+2e60f7d	212410368	Thu Mar 21 19:39:18 2024 +0800	W05-P2: Show W05-P1 in Vercel, add github and globe icons for Github and Vercel
+49480e9	212410368	Thu Mar 21 19:32:53 2024 +0800	1
+5fda0f9	212410368	Thu Mar 21 19:06:42 2024 +0800	W05-P1: Use megamenu to show class demo w1~W4 locally
+e339963	212410368	Thu Mar 14 21:47:06 2024 +0800	w04
+35c19a9	212410368	Thu Mar 14 21:46:25 2024 +0800	### W04-P5: git logs for W04
+f371659	212410368	Thu Mar 14 21:44:59 2024 +0800	## W04-P4: P6_xx -- BMI Compute with Suggestion
+880c77d	212410368	Thu Mar 14 20:19:21 2024 +0800	## W04-P3: P5_xx -- Display 5 tours from data_xx.js (json array)
+d65dc42	212410368	Thu Mar 14 20:19:01 2024 +0800	W04-P2: P5_xx -- Tours display two fixed data
+53a1624	212410368	Thu Mar 14 20:18:26 2024 +0800	### W04-P1: P4_xx -- Counter Demo
+f64616b	212410368	Thu Mar 7 20:59:09 2024 +0800	## W03-P4:git logs for W03
+c122517	212410368	Thu Mar 7 20:57:38 2024 +0800	## W03-P4: Compute highest and lowest score of sdata and students2
+edd37c1	212410368	Thu Mar 7 20:26:58 2024 +0800	### W03-P3: import sdata and students data from data_xx.js
+79e0d17	212410368	Thu Mar 7 20:25:59 2024 +0800	### W03-P2: P2_xx temperature convert using Web
+36071b0	212410368	Thu Mar 7 19:16:26 2024 +0800	### W03-P1: P1_xx temperature convert
+ab21a6e	212410368	Thu Feb 29 21:03:03 2024 +0800	w2
+5dbc054	212410368	Thu Feb 29 21:00:22 2024 +0800	W01-P4: git logs for W02
+0e2ef5e	212410368	Thu Feb 29 20:58:56 2024 +0800	W02-P3: implment checkWin(player), and winMessage(player)
+43b2448	212410368	Thu Feb 29 19:56:52 2024 +0800	W02-P2: implement reset button
+78aa96f	212410368	Thu Feb 29 19:06:54 2024 +0800	### W02-P1: Show Tictactoe css
+aa67d53	212410368	Thu Feb 22 21:30:09 2024 +0800	w01-P1
+8db3f67	212410368	Thu Feb 22 21:27:23 2024 +0800	W01-P6: git logs for W01
+f9c0025	212410368	Thu Feb 22 21:25:49 2024 +0800	W01-P5: implement divide function
+0e3c63d	212410368	Thu Feb 22 21:25:05 2024 +0800	W01-P4: implement multiply function
+ba9a3ff	212410368	Thu Feb 22 21:24:30 2024 +0800	W01-P3: implement subtract function
+e9d9a43	212410368	Thu Feb 22 21:23:49 2024 +0800	W01-P2: implement add function
+8255bda	212410368	Thu Feb 22 19:36:04 2024 +0800	### w01-P1:show the 201-dom title
+72d1b28	212410368	Thu Feb 22 19:35:04 2024 +0800	https://github.com/github212410368/1122-js-demo-212410368.git

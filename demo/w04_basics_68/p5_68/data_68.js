@@ -34,4 +34,11 @@ export const tours_68 = [
     local_img: './img/poland.jpeg',
     price: 2595,
   },
+  {
+    id: 6,
+    name: 'Best Of tawian In 10 Days Tour',
+    info: 'drink bubble tea',
+    local_img: './img/1.jpg',
+    price: 2595,
+  },
 ];
