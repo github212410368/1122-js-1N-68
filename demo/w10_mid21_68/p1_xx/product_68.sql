@@ -7,7 +7,7 @@ CREATE TABLE product_68(
     remote_img varchar(255)
 )
 
-INSERT INTO product_68 (id, title, price, category, img, remote_img)
+INSERT INTO product_68 (id, title, price, category, img, remote_url)
 VALUES 
 (8, 'Sofa Set', 69.99, 'Liddy', './images/product-8.jpg',''),
 (9, 'Utopia Sofa', 69.99, 'Liddy', './images/product-9.jpg',''),
@@ -18,7 +18,8 @@ VALUES
 (2, 'Accent Chair', 25.99, 'Caressa', './images/product-2.jpg', ''),
 (3, 'High-Back Bench', 9.99, 'Ikea', './images/product-3.jpg', '')
 
-INSERT INTO product_68 (id, title, price, category, img, remote_img)
+
+INSERT INTO product_68 (id, title, price, category, img, remote_url)
 VALUES 
 (1, 'Emperor Bed', 21.99, 'Liddy', './images/product-1.jpg', ''),
 (2, 'Accent Chair', 25.99, 'Caressa', './images/product-2.jpg', ''),
@@ -34,6 +35,8 @@ VALUES
 (12, 'Leather Sofa', 39.95, 'Liddy', './images/product-12.jpg', '')
 
 
-
+INSERT INTO product_68 (id, title, price, category, img, remote_img)
+VALUES 
+(20, ' Nathon Sofa', 69.99, 'ikea', './images/product-8.jpg','https://reurl.cc/Gjb28d')
 
 

@@ -1,6 +1,6 @@
-export const products_xx = [];
+export const products_68 = [];
 
-export const all_products_xx = [
+export const all_products_68 = [
   {
     id: 1,
     title: 'Emperor Bed',
