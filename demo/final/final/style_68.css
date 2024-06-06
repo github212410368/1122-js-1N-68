@@ -1,0 +1,156 @@
+/* 基本样式设置 */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f9fafb;
+  color: #333;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+/* 菜单区域 */
+.menu {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #ff6b6b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.companies {
+  display: flex;
+  flex-direction: column; /* 添加這一行 */
+}
+
+.company-btn {
+  background: #fff;
+  border: 2px solid #ff6b6b;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0.5rem 0; /* 修改這一行 */
+  letter-spacing: 1px;
+  border-radius: 5px;
+  padding: 0.75rem 0; /* 修改這一行 */
+  color: #ff6b6b;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center; /* 添加這一行 */
+  display: block; /* 添加這一行 */
+}
+
+.company-btn:hover {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+.section-center {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.menu-item {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 400px;
+}
+
+.menu-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+.photo {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.item-info {
+  text-align: left;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 0.5rem;
+}
+
+.item-info h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.price {
+  color: #ff6b6b;
+  font-size: 1.25rem;
+}
+
+.item-text {
+  margin-bottom: 0;
+  padding-top: 1rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-item {
+    grid-template-columns: 1fr;
+  }
+  .photo {
+    height: 175px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-center {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .photo {
+    height: 150px;
+  }
+}
