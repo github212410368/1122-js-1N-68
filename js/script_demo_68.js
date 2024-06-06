@@ -41,5 +41,8 @@ function showdemo(week) {
     case 'w09_mid21-p3_68':
       p.innerHTML = `<iframe src="./demo/w09_mid21_68/p3_68/p3_xx.html" width="100%" height="100%" />`;
       break;
+    case 'final':
+      p.innerHTML = `<iframe src="../demo/final/index.html" width="100%" height="100%" />`;
+      break;
   }
 }
