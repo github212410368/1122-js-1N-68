@@ -1,156 +1,173 @@
 /* 基本样式设置 */
 body {
-  font-family: 'Arial', sans-serif;
-  background: #f9fafb;
-  color: #333;
-  line-height: 1.5;
-  font-size: 0.875rem;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
+  font-family: 'Arial', sans-serif; /* 字体设置 */
+  background: #f9fafb; /* 背景颜色 */
+  color: #333; /* 字体颜色 */
+  line-height: 1.5; /* 行高 */
+  font-size: 0.875rem; /* 字体大小 */
+  margin: 0; /* 外边距 */
+  padding: 0; /* 内边距 */
+  display: flex; /* 弹性布局 */
+  justify-content: center; /* 主轴方向居中对齐 */
+  align-items: flex-start; /* 交叉轴方向起始对齐 */
+  height: 100vh; /* 视口高度 */
 }
 
 /* 菜单区域 */
 .menu {
-  display: flex;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
+  display: flex; /* 弹性布局 */
+  width: 100%; /* 宽度 */
+  max-width: 1200px; /* 最大宽度 */
+  margin: 0 auto; /* 自动外边距，使元素居中 */
+  padding: 2rem; /* 内边距 */
+  background-color: #fff; /* 背景颜色 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* 盒子阴影 */
+  border-radius: 10px; /* 边角圆弧 */
 }
 
+/* 标题 */
 .title {
-  text-align: center;
-  margin-bottom: 2rem;
+  text-align: center; /* 文本居中 */
+  margin-bottom: 2rem; /* 底部外边距 */
 }
 
+/* 下划线 */
 .underline {
-  width: 5rem;
-  height: 0.25rem;
-  background: #ff6b6b;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  border-radius: 5px;
+  width: 5rem; /* 宽度 */
+  height: 0.25rem; /* 高度 */
+  background: #ff6b6b; /* 背景颜色 */
+  margin-left: auto; /* 自动左外边距 */
+  margin-right: auto; /* 自动右外边距 */
+  margin-bottom: 1rem; /* 底部外边距 */
+  border-radius: 5px; /* 边角圆弧 */
 }
 
+/* 按钮容器 */
 .btn-container {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  background-color: #f7f7f7;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  margin-right: 20px;
-  border-radius: 10px;
+  display: flex; /* 弹性布局 */
+  flex-direction: column; /* 纵向排列 */
+  width: 200px; /* 宽度 */
+  background-color: #f7f7f7; /* 背景颜色 */
+  padding: 20px; /* 内边距 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* 盒子阴影 */
+  margin-right: 20px; /* 右外边距 */
+  border-radius: 10px; /* 边角圆弧 */
 }
 
+/* 公司按钮列表 */
 .companies {
-  display: flex;
-  flex-direction: column; /* 添加這一行 */
+  display: flex; /* 弹性布局 */
+  flex-direction: column; /* 纵向排列 */
 }
 
+/* 公司按钮 */
 .company-btn {
-  background: #fff;
-  border: 2px solid #ff6b6b;
-  font-size: 1rem;
-  text-transform: capitalize;
-  margin: 0.5rem 0; /* 修改這一行 */
-  letter-spacing: 1px;
-  border-radius: 5px;
-  padding: 0.75rem 0; /* 修改這一行 */
-  color: #ff6b6b;
-  cursor: pointer;
-  transition: 0.3s;
-  text-align: center; /* 添加這一行 */
-  display: block; /* 添加這一行 */
+  background: #fff; /* 背景颜色 */
+  border: 2px solid #ff6b6b; /* 边框 */
+  font-size: 1rem; /* 字体大小 */
+  text-transform: capitalize; /* 字母大小写转换 */
+  margin: 0.5rem 0; /* 上下外边距 */
+  letter-spacing: 1px; /* 字母间距 */
+  border-radius: 5px; /* 边角圆弧 */
+  padding: 0.75rem 0; /* 上下内边距 */
+  color: #ff6b6b; /* 字体颜色 */
+  cursor: pointer; /* 鼠标指针样式 */
+  transition: 0.3s; /* 过渡时间 */
+  text-align: center; /* 文本居中 */
+  display: block; /* 块级元素 */
 }
 
+/* 公司按钮悬停效果 */
 .company-btn:hover {
-  background: #ff6b6b;
-  color: #fff;
+  background: #ff6b6b; /* 背景颜色 */
+  color: #fff; /* 字体颜色 */
 }
 
+/* 主内容区域 */
 .section-center {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  width: 100%;
+  flex: 1; /* 弹性增长 */
+  display: grid; /* 网格布局 */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 网格列设置 */
+  gap: 2rem; /* 网格间距 */
+  width: 100%; /* 宽度 */
 }
 
+/* 菜单项 */
 .menu-item {
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  padding: 1rem;
-  border-radius: 10px;
-  transition: transform 0.3s, box-shadow 0.3s;
-  width: 100%;
-  max-width: 400px;
+  background: #fff; /* 背景颜色 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* 盒子阴影 */
+  padding: 1rem; /* 内边距 */
+  border-radius: 10px; /* 边角圆弧 */
+  transition: transform 0.3s, box-shadow 0.3s; /* 过渡效果 */
+  width: 100%; /* 宽度 */
+  max-width: 400px; /* 最大宽度 */
 }
 
+/* 菜单项悬停效果 */
 .menu-item:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* 盒子阴影 */
+  transform: translateY(-10px); /* 垂直位移 */
 }
 
+/* 菜单项图片 */
 .photo {
-  object-fit: cover;
-  height: 200px;
-  width: 100%;
-  border-radius: 10px 10px 0 0;
+  object-fit: cover; /* 对象适应 */
+  height: 200px; /* 高度 */
+  width: 100%; /* 宽度 */
+  border-radius: 10px 10px 0 0; /* 边角圆弧 */
 }
 
+/* 菜单项信息 */
 .item-info {
-  text-align: left;
-  width: 100%;
-  padding-top: 1rem;
+  text-align: left; /* 文本左对齐 */
+  width: 100%; /* 宽度 */
+  padding-top: 1rem; /* 上内边距 */
 }
 
+/* 菜单项信息头部 */
 .item-info header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 2px solid #f1f1f1;
-  padding-bottom: 0.5rem;
+  display: flex; /* 弹性布局 */
+  justify-content: space-between; /* 主轴方向两端对齐 */
+  border-bottom: 2px solid #f1f1f1; /* 下边框 */
+  padding-bottom: 0.5rem; /* 下内边距 */
 }
 
+/* 菜单项标题 */
 .item-info h4 {
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
+  margin-bottom: 0.5rem; /* 底部外边距 */
+  font-size: 1.25rem; /* 字体大小 */
 }
 
+/* 菜单项价格 */
 .price {
-  color: #ff6b6b;
-  font-size: 1.25rem;
+  color: #ff6b6b; /* 字体颜色 */
+  font-size: 1.25rem; /* 字体大小 */
 }
 
+/* 菜单项文本 */
 .item-text {
-  margin-bottom: 0;
-  padding-top: 1rem;
-  color: #666;
-  line-height: 1.8;
+  margin-bottom: 0; /* 底部外边距 */
+  padding-top: 1rem; /* 上内边距 */
+  color: #666; /* 字体颜色 */
+  line-height: 1.8; /* 行高 */
 }
 
+/* 响应式样式：屏幕宽度至少为768px */
 @media screen and (min-width: 768px) {
   .menu-item {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* 网格列设置 */
   }
   .photo {
-    height: 175px;
+    height: 175px; /* 高度 */
   }
 }
 
+/* 响应式样式：屏幕宽度至少为1200px */
 @media screen and (min-width: 1200px) {
   .section-center {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 网格列设置 */
   }
   .photo {
-    height: 150px;
+    height: 150px; /* 高度 */
   }
 }
